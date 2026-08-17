@@ -1,5 +1,5 @@
 # isat-subtask2
-// Example program
+
 #include <iostream>
 #include <string>
 using namespace std;
