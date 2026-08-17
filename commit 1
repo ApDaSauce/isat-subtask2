@@ -1,3 +1,6 @@
 feat(cli): initialize base conversion menu with options 1 to 4
-Supports Decimal to Binary (manual string prepending), Binary to Decimal (std::stoi base 2),
-Decimal to Hexadecimal (std::hex stream manipulator), and Hexadecimal to Decimal (std::stoi base 16).
+
+Add initial C++ menu program to perform number base conversions.
+Supports Decimal to Binary (manual string prepending), Binary to
+Decimal (std::stoi base 2), Decimal to Hexadecimal (std::hex
+stream manipulator), and Hexadecimal to Decimal (std::stoi base 16).
