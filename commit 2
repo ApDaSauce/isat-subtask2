@@ -1,1 +1,5 @@
-fix(conversion):support negative integers and pevent infinte loop in binary conversion
+fix(conversion): support negative integers and prevent infinite loop in binary conversion
+
+Refactor option 1 logic to properly convert negative decimal values using
+standard representation. Fix edge case where entering negative numbers
+bypasses or breaks the dec > 0 loop condition.
