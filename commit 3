@@ -1,0 +1,5 @@
+feat(input): add error handling for invalid menu selections and string parsing
+
+Wrap cin input in safety checks to handle non-integer menu selections smoothly.
+Add try-catch blocks around std::stoi in options 2 and 4 to gracefully handle
+invalid binary or hexadecimal string inputs without crashing the program.
