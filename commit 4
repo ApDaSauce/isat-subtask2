@@ -1,0 +1,7 @@
+feat: add-menudriven number base convertert in C++
+
+  implement base conversion utility supporting:
+- Decimal to Binary (manual string conversion)
+- Binary to Decimail (using std: stoi with base 2)
+- Decimal to Hexadecimal ( using I/O manipluatorsstd:: hex, std:: uppercase)
+- hexadecimal TO decimal (using std :: stoi withbase 16)
